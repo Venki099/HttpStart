@@ -42,7 +42,6 @@ export class PostsService{
     }),catchError(errorRes => {
       return throwError(errorRes)
     }))
-	
     // .subscribe(posts => {
     //   console.log(posts);
     //   // this.isFetching = false;
